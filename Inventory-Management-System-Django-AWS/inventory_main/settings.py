@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'inventory_main.wsgi.application'
 # }
 
 # Default SQLite3 configuration
-{ 
+DATABASES = { 
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
